@@ -22,12 +22,12 @@ namespace Airline_Client.Controllers
             {
                 _log4net.Info("token not found");
 
-                return RedirectToAction("Login");
+                return RedirectToAction("Login","Login");
 
             }
             else
             {
-                _log4net.Info("Flightslist getting Displayed");
+                _log4net.Info(HttpContext.Session.GetString("Username")+" requested current availability");
 
                 List<Flight> itemList = new List<Flight>();
                 using (var client = new HttpClient())
@@ -40,7 +40,7 @@ namespace Airline_Client.Controllers
                     client.DefaultRequestHeaders.Authorization =
             new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("token"));
 
-                    using (var response = await client.GetAsync("https://availability-service.azurewebsites.net/api/availability"))
+                    using (var response = await client.GetAsync("https://localhost:44379/api/availability"))
                     {
                         var apiResponse = await response.Content.ReadAsStringAsync();
                         itemList = JsonConvert.DeserializeObject<List<Flight>>(apiResponse);
@@ -57,6 +57,14 @@ namespace Airline_Client.Controllers
         // GET: Ticket/Book
         public ActionResult Book()
         {
+            if (HttpContext.Session.GetString("token") == null)
+            {
+                _log4net.Info("token not found");
+
+                return RedirectToAction("Login", "Login");
+
+            }
+
             return View();
         }
 
@@ -69,7 +77,7 @@ namespace Airline_Client.Controllers
             {
                 _log4net.Info("token not found");
 
-                return RedirectToAction("Login");
+                return RedirectToAction("Login","Login");
 
             }
             else
@@ -83,7 +91,7 @@ namespace Airline_Client.Controllers
 
                     client.DefaultRequestHeaders.Authorization =
             new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("token"));
-                    client.BaseAddress = new Uri("https://availability-service.azurewebsites.net/api/");
+                    client.BaseAddress = new Uri("https://localhost:44379/api/");
                     var responseTask = await client.GetAsync("availability/" + ticket.FlightId.ToString());
 
                     if (responseTask.IsSuccessStatusCode)
@@ -94,7 +102,7 @@ namespace Airline_Client.Controllers
                         if (currentAvailability > 0)
                         {
 
-                            using (var res = await client.PostAsync("https://ticketservice-1.azurewebsites.net/api/ticket/book", content))
+                            using (var res = await client.PostAsync("https://localhost:44384/api/ticket/book", content))
                             {
 
                                 if ((int)res.StatusCode == 201)
@@ -106,7 +114,21 @@ namespace Airline_Client.Controllers
                             }
                         }
                     }
-
+                    else
+                    {
+                        if ((int)responseTask.StatusCode == 404)
+                        {
+                            ViewBag.message = "Flight with given id "+ ticket.FlightId.ToString()+" does not exist ";
+                            _log4net.Info("Flight with given id " + ticket.FlightId.ToString() + " does not exist ");
+                            return View(ticket);
+                        }
+                        else
+                        {
+                            ViewBag.message = "Error in booking tickets";
+                            _log4net.Info("Error in booking tickets");
+                            return View(ticket);
+                        }
+                    }
 
                 }
 
@@ -120,24 +142,34 @@ namespace Airline_Client.Controllers
         [HttpGet("allbookings")]
         public async Task<IActionResult> Get_All_Bookings()
         {
-            _log4net.Info("All Booked tickets");
-            List<Ticket> bookings = new List<Ticket>();
-            using (var client = new HttpClient())
+            if (HttpContext.Session.GetString("token") == null)
             {
-                var contentType = new MediaTypeWithQualityHeaderValue("application/json");
-                client.DefaultRequestHeaders.Accept.Add(contentType);
+                _log4net.Info("token not found");
 
-                client.DefaultRequestHeaders.Authorization =new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("token"));
-                
-                using (var response = await client.GetAsync("https://ticketservice-1.azurewebsites.net/api/ticket/"))
-                {
-                    var res = await response.Content.ReadAsStringAsync();
-                    bookings = JsonConvert.DeserializeObject<List<Ticket>>(res);
+                return RedirectToAction("Login", "Login");
 
-                }
             }
-            _log4net.Info(HttpContext.Session.GetString("Username") + " Successfully got all bookings details ");
-            return View(bookings);
+            else
+            {
+                _log4net.Info("All Booked tickets");
+                List<Ticket> bookings = new List<Ticket>();
+                using (var client = new HttpClient())
+                {
+                    var contentType = new MediaTypeWithQualityHeaderValue("application/json");
+                    client.DefaultRequestHeaders.Accept.Add(contentType);
+
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("token"));
+
+                    using (var response = await client.GetAsync("https://localhost:44384/api/ticket/"))
+                    {
+                        var res = await response.Content.ReadAsStringAsync();
+                        bookings = JsonConvert.DeserializeObject<List<Ticket>>(res);
+
+                    }
+                }
+                _log4net.Info(HttpContext.Session.GetString("Username") + " Successfully got all bookings details ");
+                return View(bookings);
+            }
         }
     }
 }

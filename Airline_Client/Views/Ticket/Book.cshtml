@@ -1,74 +1,58 @@
 ﻿@model Airline_Client.Models.Ticket
 
 @{
-    ViewData["Title"] = "Book";
+    ViewData["Title"] = "Book Ticket";
+    Layout = "_Layout";
 }
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Ticket" asp-action="Index">Airline_Client</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1 float-right">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Ticket" asp-action="Index">Check Availability</a>
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Ticket" asp-action="Get_All_Bookings">All Bookings</a>
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Logout">Logout</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-<h1>Book Ticket</h1>
+   
+<h3 class="justify-content-center">Book Ticket</h3>
 
 
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Book">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            
-            <div class="form-group">
-                <label asp-for="PassengerName" class="control-label"></label>
-                <input asp-for="PassengerName" class="form-control" />
-                <span asp-validation-for="PassengerName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Age" class="control-label"></label>
-                <input asp-for="Age" class="form-control" />
-                <span asp-validation-for="Age" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DateOfJourney" class="control-label"></label>
-                <input asp-for="DateOfJourney" class="form-control" />
-                <span asp-validation-for="DateOfJourney" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="StartingLocation" class="control-label"></label>
-                <input asp-for="StartingLocation" class="form-control" />
-                <span asp-validation-for="StartingLocation" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Destination" class="control-label"></label>
-                <input asp-for="Destination" class="form-control" />
-                <span asp-validation-for="Destination" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FlightId" class="control-label"></label>
-                <input asp-for="FlightId" class="form-control" />
-                <span asp-validation-for="FlightId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Book" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+<p class="text-danger">@ViewBag.message</p>
+<body class="justify-content-center">
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Book">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+                <div class="form-group">
+                    <label asp-for="PassengerName" class="control-label"></label>
+                    <input asp-for="PassengerName" class="form-control" />
+                    <span asp-validation-for="PassengerName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Age" class="control-label"></label>
+                    <input asp-for="Age" class="form-control" />
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DateOfJourney" class="control-label"></label>
+                    <input asp-for="DateOfJourney" class="form-control" />
+                    <span asp-validation-for="DateOfJourney" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="StartingLocation" class="control-label"></label>
+                    <input asp-for="StartingLocation" class="form-control" />
+                    <span asp-validation-for="StartingLocation" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Destination" class="control-label"></label>
+                    <input asp-for="Destination" class="form-control" />
+                    <span asp-validation-for="Destination" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FlightId" class="control-label"></label>
+                    <input asp-for="FlightId" class="form-control" />
+                    <span asp-validation-for="FlightId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Book" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
 
 
 @section Scripts {

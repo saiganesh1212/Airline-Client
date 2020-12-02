@@ -7293,11 +7293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ganesh\\source\\repos\\Airline-Client\\Airline_Client\\Airline_Client.csproj",
+      "projectUniqueName": "C:\\Users\\Ganesh\\source\\repos\\Airline_Reservation_Without_DB\\Airline_Client\\Airline_Client.csproj",
       "projectName": "Airline_Client",
-      "projectPath": "C:\\Users\\Ganesh\\source\\repos\\Airline-Client\\Airline_Client\\Airline_Client.csproj",
+      "projectPath": "C:\\Users\\Ganesh\\source\\repos\\Airline_Reservation_Without_DB\\Airline_Client\\Airline_Client.csproj",
       "packagesPath": "C:\\Users\\Ganesh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ganesh\\source\\repos\\Airline-Client\\Airline_Client\\obj\\",
+      "outputPath": "C:\\Users\\Ganesh\\source\\repos\\Airline_Reservation_Without_DB\\Airline_Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ganesh\\AppData\\Roaming\\NuGet\\NuGet.Config",

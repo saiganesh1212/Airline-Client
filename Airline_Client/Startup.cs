@@ -27,7 +27,7 @@ namespace Airline_Client
         {
             services.AddControllersWithViews();
             services.AddSwaggerGen(c => { c.SwaggerDoc("AirlineClient", new OpenApiInfo { Title = "Airline Client", Version = "1.0" }); });
-            services.AddSession();
+            services.AddSession(op=>op.IdleTimeout=TimeSpan.FromMinutes(10));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

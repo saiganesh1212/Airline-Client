@@ -16,8 +16,9 @@ namespace Airline_Client.Controllers
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(LoginController));
         // GET: Login/Create
         [HttpGet]
-        public ActionResult Login()
+        public ActionResult Login(string error="")
         {
+            ViewBag.message = error;
             return View();
         }
 
@@ -31,11 +32,12 @@ namespace Airline_Client.Controllers
             {
 
                 StringContent content1 = new StringContent(JsonConvert.SerializeObject(user), Encoding.UTF8, "application/json");
-                using (var response1 = await httpClient.PostAsync("https://authservice-1.azurewebsites.net/api/auth/login", content1))
+                using (var response1 = await httpClient.PostAsync("https://localhost:44311/api/auth/login", content1))
                 {
                     if (!response1.IsSuccessStatusCode)
                     {
-                        return RedirectToAction("login");
+                        ViewBag.message = "Invalid Login Credentials";
+                        return View(user);
                     }
 
 
@@ -50,7 +52,6 @@ namespace Airline_Client.Controllers
                     HttpContext.Session.SetString("user", JsonConvert.SerializeObject(user));
 
                     HttpContext.Session.SetString("Username", user.Username);
-                    ViewBag.Message = "User logged in successfully!";
                     return RedirectToAction("Index", "Ticket");
 
                 }
@@ -60,10 +61,12 @@ namespace Airline_Client.Controllers
         }
         public ActionResult Logout()
         {
-            _log4net.Info("User Log Out");
+            
             HttpContext.Session.Remove("token");
             // HttpContext.Session.SetString("user", null);
-
+            
+            HttpContext.Session.Clear();
+            _log4net.Info(HttpContext.Session.GetString("Username") + " Successfully logged out");
             return View("Login");
         }
     }

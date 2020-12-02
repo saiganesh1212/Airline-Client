@@ -356,3 +356,862 @@ INFO  04:56:01 Hosting environment: Development
 INFO  04:56:01 Hosting environment: Development
 INFO  04:56:01 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
 INFO  04:56:01 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:44:03 Now listening on: https://localhost:5001
+INFO  05:44:03 Now listening on: https://localhost:5001
+INFO  05:44:03 Now listening on: http://localhost:5000
+INFO  05:44:03 Now listening on: http://localhost:5000
+INFO  05:44:03 Application started. Press Ctrl+C to shut down.
+INFO  05:44:03 Application started. Press Ctrl+C to shut down.
+INFO  05:44:03 Hosting environment: Development
+INFO  05:44:03 Hosting environment: Development
+INFO  05:44:03 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  05:44:03 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+WARN  05:44:36 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  05:44:36 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  05:44:53 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  05:44:53 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  05:45:42 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  05:45:42 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+INFO  05:45:53 User Login Initiated
+INFO  05:45:59 Ganesh successfully logged in
+INFO  05:46:00 Flightslist getting Displayed
+INFO  05:46:03 Ganesh Successfully got all flights details 
+INFO  05:46:19 All Booked tickets
+INFO  05:46:22 Ganesh Successfully got all bookings details 
+INFO  05:46:26 User Log Out
+INFO  05:46:57 User Login Initiated
+INFO  05:46:59 Ganesh successfully logged in
+INFO  05:46:59 Flightslist getting Displayed
+INFO  05:47:01 Ganesh Successfully got all flights details 
+INFO  05:47:04 All Booked tickets
+INFO  05:47:06 Ganesh Successfully got all bookings details 
+INFO  05:47:40 Successfully booked for passenger Meghana
+INFO  05:47:40 All Booked tickets
+INFO  05:47:41 Ganesh Successfully got all bookings details 
+INFO  05:47:51 Flightslist getting Displayed
+INFO  05:47:53 Ganesh Successfully got all flights details 
+INFO  05:48:24 Successfully booked for passenger Lakshmi
+INFO  05:48:25 All Booked tickets
+INFO  05:48:26 Ganesh Successfully got all bookings details 
+INFO  05:48:32 Flightslist getting Displayed
+INFO  05:48:34 Ganesh Successfully got all flights details 
+INFO  05:48:39 User Log Out
+INFO  05:48:50 token not found
+INFO  05:49:16 token not found
+INFO  05:49:28 User Log Out
+INFO  05:56:34 Now listening on: https://localhost:5001
+INFO  05:56:34 Now listening on: https://localhost:5001
+INFO  05:56:34 Now listening on: http://localhost:5000
+INFO  05:56:34 Now listening on: http://localhost:5000
+INFO  05:56:34 Application started. Press Ctrl+C to shut down.
+INFO  05:56:34 Application started. Press Ctrl+C to shut down.
+INFO  05:56:34 Hosting environment: Development
+INFO  05:56:34 Hosting environment: Development
+INFO  05:56:34 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  05:56:34 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  05:58:41 User Login Initiated
+INFO  05:58:45 Ganesh successfully logged in
+INFO  05:58:46 Flightslist getting Displayed
+INFO  05:58:48 Ganesh Successfully got all flights details 
+INFO  05:59:18 User Log Out
+INFO  05:59:54 User Log Out
+INFO  06:06:36 Now listening on: https://localhost:5001
+INFO  06:06:36 Now listening on: https://localhost:5001
+INFO  06:06:36 Now listening on: http://localhost:5000
+INFO  06:06:36 Now listening on: http://localhost:5000
+INFO  06:06:36 Application started. Press Ctrl+C to shut down.
+INFO  06:06:36 Application started. Press Ctrl+C to shut down.
+INFO  06:06:36 Hosting environment: Development
+INFO  06:06:36 Hosting environment: Development
+INFO  06:06:36 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:06:36 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:07:48 User Login Initiated
+INFO  06:07:53 Ganesh successfully logged in
+INFO  06:07:54 Flightslist getting Displayed
+INFO  06:07:57 Ganesh Successfully got all flights details 
+INFO  06:08:03 User Log Out
+INFO  06:20:48 Now listening on: https://localhost:5001
+INFO  06:20:49 Now listening on: https://localhost:5001
+INFO  06:20:49 Now listening on: http://localhost:5000
+INFO  06:20:49 Now listening on: http://localhost:5000
+INFO  06:20:49 Application started. Press Ctrl+C to shut down.
+INFO  06:20:49 Application started. Press Ctrl+C to shut down.
+INFO  06:20:49 Hosting environment: Development
+INFO  06:20:49 Hosting environment: Development
+INFO  06:20:49 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:20:49 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:23:56 User Login Initiated
+INFO  06:24:01 Ganesh successfully logged in
+INFO  06:24:03 Flightslist getting Displayed
+INFO  06:24:05 Ganesh Successfully got all flights details 
+INFO  06:24:10 User Log Out
+INFO  06:24:40 User Log Out
+INFO  06:24:54 User Log Out
+INFO  06:32:31 Now listening on: https://localhost:5001
+INFO  06:32:31 Now listening on: https://localhost:5001
+INFO  06:32:31 Now listening on: http://localhost:5000
+INFO  06:32:31 Now listening on: http://localhost:5000
+INFO  06:32:31 Application started. Press Ctrl+C to shut down.
+INFO  06:32:31 Application started. Press Ctrl+C to shut down.
+INFO  06:32:31 Hosting environment: Development
+INFO  06:32:31 Hosting environment: Development
+INFO  06:32:31 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:32:31 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:42:36 User Login Initiated
+INFO  06:42:39 Ganesh successfully logged in
+INFO  06:42:40 Flightslist getting Displayed
+INFO  06:42:42 Ganesh Successfully got all flights details 
+INFO  06:42:46 User Log Out
+INFO  06:45:15 Now listening on: https://localhost:5001
+INFO  06:45:15 Now listening on: https://localhost:5001
+INFO  06:45:16 Now listening on: http://localhost:5000
+INFO  06:45:16 Now listening on: http://localhost:5000
+INFO  06:45:16 Application started. Press Ctrl+C to shut down.
+INFO  06:45:16 Application started. Press Ctrl+C to shut down.
+INFO  06:45:16 Hosting environment: Development
+INFO  06:45:16 Hosting environment: Development
+INFO  06:45:16 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:45:16 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:46:30 User Login Initiated
+INFO  06:46:33 Ganesh successfully logged in
+INFO  06:46:34 Flightslist getting Displayed
+INFO  06:46:36 Ganesh Successfully got all flights details 
+INFO  06:46:54 User Log Out
+INFO  06:47:16 User Log Out
+INFO  06:53:23 Now listening on: https://localhost:5001
+INFO  06:53:24 Now listening on: https://localhost:5001
+INFO  06:53:24 Now listening on: http://localhost:5000
+INFO  06:53:24 Now listening on: http://localhost:5000
+INFO  06:53:24 Application started. Press Ctrl+C to shut down.
+INFO  06:53:24 Application started. Press Ctrl+C to shut down.
+INFO  06:53:24 Hosting environment: Development
+INFO  06:53:24 Hosting environment: Development
+INFO  06:53:24 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  06:53:24 Content root path: C:\Users\Ganesh\source\repos\Airline-Client\Airline_Client
+INFO  07:18:23 Application started. Press Ctrl+C to shut down.
+INFO  07:18:24 Application started. Press Ctrl+C to shut down.
+INFO  07:18:24 Hosting environment: Development
+INFO  07:18:24 Hosting environment: Development
+INFO  07:18:24 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  07:18:24 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  07:19:28 User Login Initiated
+INFO  07:20:39 Ganesh successfully logged in
+INFO  07:20:42 Flightslist getting Displayed
+INFO  07:21:20 Ganesh Successfully got all flights details 
+INFO  07:21:26 User Log Out
+INFO  07:21:42 User Log Out
+INFO  07:41:36 Application started. Press Ctrl+C to shut down.
+INFO  07:41:36 Application started. Press Ctrl+C to shut down.
+INFO  07:41:36 Hosting environment: Development
+INFO  07:41:36 Hosting environment: Development
+INFO  07:41:36 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  07:41:36 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  07:46:32 User Login Initiated
+INFO  07:57:17 Application started. Press Ctrl+C to shut down.
+INFO  07:57:18 Application started. Press Ctrl+C to shut down.
+INFO  07:57:18 Hosting environment: Development
+INFO  07:57:18 Hosting environment: Development
+INFO  07:57:18 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  07:57:18 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  07:58:38 User Login Initiated
+INFO  07:58:54 Ganesh successfully logged in
+INFO  07:58:56 Flightslist getting Displayed
+INFO  07:58:59 Ganesh Successfully got all flights details 
+INFO  08:00:21 User Log Out
+INFO  08:00:33 token not found
+INFO  08:00:50 token not found
+INFO  01:17:53 Application started. Press Ctrl+C to shut down.
+INFO  01:17:53 Application started. Press Ctrl+C to shut down.
+INFO  01:17:53 Hosting environment: Development
+INFO  01:17:53 Hosting environment: Development
+INFO  01:17:53 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  01:17:53 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  01:18:34 token not found
+INFO  01:18:45 User Log Out
+INFO  01:18:52 token not found
+INFO  01:20:23 Application started. Press Ctrl+C to shut down.
+INFO  01:20:23 Application started. Press Ctrl+C to shut down.
+INFO  01:20:23 Hosting environment: Development
+INFO  01:20:23 Hosting environment: Development
+INFO  01:20:23 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  01:20:23 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  01:20:51 token not found
+INFO  01:20:57 token not found
+INFO  01:21:15 token not found
+INFO  01:21:25 User Login Initiated
+INFO  01:21:28 Ganesh successfully logged in
+INFO  01:21:28 Flightslist getting Displayed
+INFO  01:21:30 Ganesh Successfully got all flights details 
+INFO  01:21:32 All Booked tickets
+INFO  01:21:33 Ganesh Successfully got all bookings details 
+INFO  01:21:37 Flightslist getting Displayed
+INFO  01:21:37 Ganesh Successfully got all flights details 
+INFO  01:21:44 All Booked tickets
+INFO  01:21:45 Ganesh Successfully got all bookings details 
+INFO  01:21:47 Flightslist getting Displayed
+INFO  01:21:47 Ganesh Successfully got all flights details 
+INFO  01:22:20 Successfully booked for passenger Azad
+INFO  01:22:20 All Booked tickets
+INFO  01:22:20 Ganesh Successfully got all bookings details 
+INFO  01:22:24 Flightslist getting Displayed
+INFO  01:22:24 Ganesh Successfully got all flights details 
+INFO  01:22:27 All Booked tickets
+INFO  01:22:27 Ganesh Successfully got all bookings details 
+INFO  01:22:30 User Log Out
+INFO  01:22:36 token not found
+INFO  02:09:18 Application started. Press Ctrl+C to shut down.
+INFO  02:09:18 Application started. Press Ctrl+C to shut down.
+INFO  02:09:18 Hosting environment: Development
+INFO  02:09:18 Hosting environment: Development
+INFO  02:09:18 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  02:09:18 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  02:09:29 User Login Initiated
+INFO  02:09:30 Ganesh successfully logged in
+INFO  02:09:31 Flightslist getting Displayed
+INFO  02:09:31 Ganesh Successfully got all flights details 
+INFO  02:09:38 User Log Out
+INFO  02:09:47 token not found
+INFO  02:09:59 token not found
+INFO  02:54:46 Application started. Press Ctrl+C to shut down.
+INFO  02:54:46 Application started. Press Ctrl+C to shut down.
+INFO  02:54:46 Hosting environment: Development
+INFO  02:54:46 Hosting environment: Development
+INFO  02:54:46 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  02:54:46 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  02:55:02 User Login Initiated
+INFO  02:55:04 Ganesh successfully logged in
+INFO  02:55:04 Flightslist getting Displayed
+INFO  02:55:04 Ganesh Successfully got all flights details 
+INFO  02:55:10 User Log Out
+INFO  02:57:14 Application started. Press Ctrl+C to shut down.
+INFO  02:57:14 Application started. Press Ctrl+C to shut down.
+INFO  02:57:14 Hosting environment: Development
+INFO  02:57:14 Hosting environment: Development
+INFO  02:57:14 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  02:57:14 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  02:57:22 User Log Out
+INFO  03:20:14 Application started. Press Ctrl+C to shut down.
+INFO  03:20:14 Application started. Press Ctrl+C to shut down.
+INFO  03:20:14 Hosting environment: Development
+INFO  03:20:14 Hosting environment: Development
+INFO  03:20:14 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:20:14 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:20:48 User Login Initiated
+INFO  03:20:50 Ganesh successfully logged in
+INFO  03:20:50 Flightslist getting Displayed
+INFO  03:20:51 Ganesh Successfully got all flights details 
+INFO  03:20:57 Flightslist getting Displayed
+INFO  03:20:58 Ganesh Successfully got all flights details 
+INFO  03:20:59 All Booked tickets
+INFO  03:21:00 Ganesh Successfully got all bookings details 
+INFO  03:21:03 User Log Out
+INFO  03:21:11 token not found
+INFO  03:21:18 token not found
+INFO  03:25:46 Application started. Press Ctrl+C to shut down.
+INFO  03:25:46 Application started. Press Ctrl+C to shut down.
+INFO  03:25:46 Hosting environment: Development
+INFO  03:25:46 Hosting environment: Development
+INFO  03:25:46 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:25:46 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:25:57 User Login Initiated
+INFO  03:25:59 Ganesh successfully logged in
+INFO  03:25:59 Flightslist getting Displayed
+INFO  03:26:00 Ganesh Successfully got all flights details 
+INFO  03:29:15 Application started. Press Ctrl+C to shut down.
+INFO  03:29:15 Application started. Press Ctrl+C to shut down.
+INFO  03:29:15 Hosting environment: Development
+INFO  03:29:15 Hosting environment: Development
+INFO  03:29:15 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:29:15 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:29:27 User Login Initiated
+INFO  03:29:29 Ganesh successfully logged in
+INFO  03:29:29 Flightslist getting Displayed
+INFO  03:29:30 Ganesh Successfully got all flights details 
+INFO  03:29:33 User Log Out
+INFO  03:31:57 Application started. Press Ctrl+C to shut down.
+INFO  03:31:57 Application started. Press Ctrl+C to shut down.
+INFO  03:31:57 Hosting environment: Development
+INFO  03:31:57 Hosting environment: Development
+INFO  03:31:57 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:31:57 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:33:47 Application started. Press Ctrl+C to shut down.
+INFO  03:33:47 Application started. Press Ctrl+C to shut down.
+INFO  03:33:47 Hosting environment: Development
+INFO  03:33:47 Hosting environment: Development
+INFO  03:33:47 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:33:47 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:36:44 Application started. Press Ctrl+C to shut down.
+INFO  03:36:44 Application started. Press Ctrl+C to shut down.
+INFO  03:36:44 Hosting environment: Development
+INFO  03:36:44 Hosting environment: Development
+INFO  03:36:44 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:36:44 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:37:28 Application started. Press Ctrl+C to shut down.
+INFO  03:37:28 Application started. Press Ctrl+C to shut down.
+INFO  03:37:29 Hosting environment: Development
+INFO  03:37:29 Hosting environment: Development
+INFO  03:37:29 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:37:29 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:38:15 Application started. Press Ctrl+C to shut down.
+INFO  03:38:15 Application started. Press Ctrl+C to shut down.
+INFO  03:38:15 Hosting environment: Development
+INFO  03:38:15 Hosting environment: Development
+INFO  03:38:15 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:38:15 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:41:35 Application started. Press Ctrl+C to shut down.
+INFO  03:41:35 Application started. Press Ctrl+C to shut down.
+INFO  03:41:35 Hosting environment: Development
+INFO  03:41:35 Hosting environment: Development
+INFO  03:41:35 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:41:35 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:46:35 Application started. Press Ctrl+C to shut down.
+INFO  03:46:35 Application started. Press Ctrl+C to shut down.
+INFO  03:46:35 Hosting environment: Development
+INFO  03:46:35 Hosting environment: Development
+INFO  03:46:35 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:46:35 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:48:04 Application started. Press Ctrl+C to shut down.
+INFO  03:48:04 Application started. Press Ctrl+C to shut down.
+INFO  03:48:04 Hosting environment: Development
+INFO  03:48:04 Hosting environment: Development
+INFO  03:48:04 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:48:04 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:48:21 User Login Initiated
+ERROR 03:48:28 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Airline_Client.Controllers.LoginController.Login(User user) in C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client\Controllers\LoginController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 03:48:28 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at Airline_Client.Controllers.LoginController.Login(User user) in C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client\Controllers\LoginController.cs:line 34
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  03:51:22 Application started. Press Ctrl+C to shut down.
+INFO  03:51:22 Application started. Press Ctrl+C to shut down.
+INFO  03:51:22 Hosting environment: Development
+INFO  03:51:22 Hosting environment: Development
+INFO  03:51:22 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:51:22 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:51:45 User Login Initiated
+INFO  03:51:47 Ganesh successfully logged in
+INFO  03:51:47 Flightslist getting Displayed
+INFO  03:51:48 Ganesh Successfully got all flights details 
+INFO  03:51:56 Flightslist getting Displayed
+INFO  03:51:56 Ganesh Successfully got all flights details 
+INFO  03:51:59 All Booked tickets
+INFO  03:52:00 Ganesh Successfully got all bookings details 
+INFO  03:52:01 Flightslist getting Displayed
+INFO  03:52:01 Ganesh Successfully got all flights details 
+INFO  03:53:02 Application started. Press Ctrl+C to shut down.
+INFO  03:53:02 Application started. Press Ctrl+C to shut down.
+INFO  03:53:02 Hosting environment: Development
+INFO  03:53:02 Hosting environment: Development
+INFO  03:53:02 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:53:02 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:53:15 User Login Initiated
+INFO  03:53:16 Ganesh successfully logged in
+INFO  03:53:16 Flightslist getting Displayed
+INFO  03:53:17 Ganesh Successfully got all flights details 
+INFO  03:53:31 User Log Out
+INFO  03:54:54 Application started. Press Ctrl+C to shut down.
+INFO  03:54:54 Application started. Press Ctrl+C to shut down.
+INFO  03:54:54 Hosting environment: Development
+INFO  03:54:54 Hosting environment: Development
+INFO  03:54:54 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  03:54:54 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  04:37:43 Application started. Press Ctrl+C to shut down.
+INFO  04:37:43 Application started. Press Ctrl+C to shut down.
+INFO  04:37:43 Hosting environment: Development
+INFO  04:37:43 Hosting environment: Development
+INFO  04:37:43 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  04:37:43 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  04:38:36 User Login Initiated
+INFO  04:44:26 Application started. Press Ctrl+C to shut down.
+INFO  04:44:26 Application started. Press Ctrl+C to shut down.
+INFO  04:44:26 Hosting environment: Development
+INFO  04:44:26 Hosting environment: Development
+INFO  04:44:26 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  04:44:26 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  04:44:43 User Login Initiated
+INFO  04:46:31 User Login Initiated
+INFO  04:46:47 User Login Initiated
+INFO  04:46:47 Ganesh successfully logged in
+INFO  04:46:47 Flightslist getting Displayed
+INFO  04:46:48 Ganesh Successfully got all flights details 
+INFO  05:05:12 Application started. Press Ctrl+C to shut down.
+INFO  05:05:12 Application started. Press Ctrl+C to shut down.
+INFO  05:05:12 Hosting environment: Development
+INFO  05:05:12 Hosting environment: Development
+INFO  05:05:12 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:05:12 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+ERROR 05:05:42 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+   at CallSite.Target(Closure , CallSite , Object , String , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at AspNetCore.Views_Login_Login.ExecuteAsync() in C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client\Views\Login\Login.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:05:42 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot apply indexing with [] to an expression of type 'System.Dynamic.DynamicObject'
+   at CallSite.Target(Closure , CallSite , Object , String , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute3[T0,T1,T2,TRet](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at AspNetCore.Views_Login_Login.ExecuteAsync() in C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client\Views\Login\Login.cshtml:line 4
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  05:07:13 Application started. Press Ctrl+C to shut down.
+INFO  05:07:13 Application started. Press Ctrl+C to shut down.
+INFO  05:07:13 Hosting environment: Development
+INFO  05:07:13 Hosting environment: Development
+INFO  05:07:13 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:07:13 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:10:26 Application started. Press Ctrl+C to shut down.
+INFO  05:10:27 Application started. Press Ctrl+C to shut down.
+INFO  05:10:27 Hosting environment: Development
+INFO  05:10:27 Hosting environment: Development
+INFO  05:10:27 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:10:27 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:10:42 User Login Initiated
+INFO  05:10:53 User Login Initiated
+INFO  05:10:53 Ganesh successfully logged in
+INFO  05:10:54 Flightslist getting Displayed
+INFO  05:10:54 Ganesh Successfully got all flights details 
+ERROR 05:10:54 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '_Layout.cshtml' could not be located. The following locations were searched:
+/Views/Ticket/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:10:54 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '_Layout.cshtml' could not be located. The following locations were searched:
+/Views/Ticket/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  05:11:50 Application started. Press Ctrl+C to shut down.
+INFO  05:11:50 Application started. Press Ctrl+C to shut down.
+INFO  05:11:50 Hosting environment: Development
+INFO  05:11:50 Hosting environment: Development
+INFO  05:11:50 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:11:50 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:12:07 User Login Initiated
+INFO  05:12:08 Ganesh successfully logged in
+INFO  05:12:08 Flightslist getting Displayed
+INFO  05:12:08 Ganesh Successfully got all flights details 
+INFO  05:12:12 Flightslist getting Displayed
+INFO  05:12:12 Ganesh Successfully got all flights details 
+INFO  05:12:14 All Booked tickets
+INFO  05:12:15 Ganesh Successfully got all bookings details 
+INFO  05:16:10 Application started. Press Ctrl+C to shut down.
+INFO  05:16:10 Application started. Press Ctrl+C to shut down.
+INFO  05:16:10 Hosting environment: Development
+INFO  05:16:10 Hosting environment: Development
+INFO  05:16:10 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:16:10 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:16:27 User Login Initiated
+INFO  05:16:28 Ganesh successfully logged in
+INFO  05:16:28 Flightslist getting Displayed
+INFO  05:16:28 Ganesh Successfully got all flights details 
+INFO  05:16:32 All Booked tickets
+INFO  05:16:32 Ganesh Successfully got all bookings details 
+INFO  05:16:35 Flightslist getting Displayed
+INFO  05:16:35 Ganesh Successfully got all flights details 
+INFO  05:16:37 All Booked tickets
+INFO  05:16:37 Ganesh Successfully got all bookings details 
+INFO  05:16:55 All Booked tickets
+INFO  05:16:55 Ganesh Successfully got all bookings details 
+INFO  05:19:11 Application started. Press Ctrl+C to shut down.
+INFO  05:19:11 Application started. Press Ctrl+C to shut down.
+INFO  05:19:11 Hosting environment: Development
+INFO  05:19:11 Hosting environment: Development
+INFO  05:19:11 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:19:11 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:19:23 User Login Initiated
+INFO  05:19:24 Ganesh successfully logged in
+INFO  05:19:24 Flightslist getting Displayed
+INFO  05:19:25 Ganesh Successfully got all flights details 
+INFO  05:19:29 Flightslist getting Displayed
+INFO  05:19:29 Ganesh Successfully got all flights details 
+INFO  05:19:31 All Booked tickets
+INFO  05:19:32 Ganesh Successfully got all bookings details 
+INFO  05:19:53 All Booked tickets
+INFO  05:19:53 Ganesh Successfully got all bookings details 
+INFO  05:19:56 Flightslist getting Displayed
+INFO  05:19:56 Ganesh Successfully got all flights details 
+INFO  05:19:59 User Log Out
+INFO  05:28:55 Application started. Press Ctrl+C to shut down.
+INFO  05:28:55 Application started. Press Ctrl+C to shut down.
+INFO  05:28:55 Hosting environment: Development
+INFO  05:28:55 Hosting environment: Development
+INFO  05:28:55 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:28:55 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:29:10 User Login Initiated
+INFO  05:29:11 Ganesh successfully logged in
+INFO  05:29:11 Flightslist getting Displayed
+INFO  05:29:11 Ganesh Successfully got all flights details 
+INFO  05:29:15 Flightslist getting Displayed
+INFO  05:29:15 Ganesh Successfully got all flights details 
+INFO  05:29:20 All Booked tickets
+INFO  05:29:20 Ganesh Successfully got all bookings details 
+INFO  05:29:24 User Log Out
+INFO  05:31:30 Application started. Press Ctrl+C to shut down.
+INFO  05:31:30 Application started. Press Ctrl+C to shut down.
+INFO  05:31:30 Hosting environment: Development
+INFO  05:31:30 Hosting environment: Development
+INFO  05:31:30 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:31:30 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:31:39 User Login Initiated
+INFO  05:31:48 User Login Initiated
+INFO  05:31:49 Ganesh successfully logged in
+INFO  05:31:49 Flightslist getting Displayed
+INFO  05:31:49 Ganesh Successfully got all flights details 
+INFO  05:31:53 Flightslist getting Displayed
+INFO  05:31:53 Ganesh Successfully got all flights details 
+INFO  05:31:54 Flightslist getting Displayed
+INFO  05:31:54 Ganesh Successfully got all flights details 
+INFO  05:32:19 Successfully booked for passenger Azad
+INFO  05:32:19 All Booked tickets
+INFO  05:32:19 Ganesh Successfully got all bookings details 
+INFO  05:32:25 Flightslist getting Displayed
+INFO  05:32:25 Ganesh Successfully got all flights details 
+INFO  05:32:29 User Log Out
+INFO  05:32:43 User Login Initiated
+INFO  05:32:43 Ganesh successfully logged in
+INFO  05:32:43 Flightslist getting Displayed
+INFO  05:32:43 Ganesh Successfully got all flights details 
+INFO  05:32:54 User Log Out
+INFO  05:34:18 Application started. Press Ctrl+C to shut down.
+INFO  05:34:18 Application started. Press Ctrl+C to shut down.
+INFO  05:34:18 Hosting environment: Development
+INFO  05:34:18 Hosting environment: Development
+INFO  05:34:18 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:34:18 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:34:27 User Login Initiated
+INFO  05:34:28 Ganesh successfully logged in
+INFO  05:34:28 Flightslist getting Displayed
+INFO  05:34:28 Ganesh Successfully got all flights details 
+INFO  05:34:33 Flightslist getting Displayed
+INFO  05:34:33 Ganesh Successfully got all flights details 
+INFO  05:34:36 All Booked tickets
+INFO  05:34:36 Ganesh Successfully got all bookings details 
+INFO  05:56:07 Application started. Press Ctrl+C to shut down.
+INFO  05:56:07 Application started. Press Ctrl+C to shut down.
+INFO  05:56:07 Hosting environment: Development
+INFO  05:56:07 Hosting environment: Development
+INFO  05:56:07 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:56:07 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  05:56:18 User Login Initiated
+INFO  05:56:29 User Login Initiated
+INFO  05:56:30 Ganesh successfully logged in
+INFO  05:56:30 Flightslist getting Displayed
+INFO  05:56:30 Ganesh Successfully got all flights details 
+INFO  05:56:35 Flightslist getting Displayed
+INFO  05:56:35 Ganesh Successfully got all flights details 
+INFO  05:56:38 Flightslist getting Displayed
+INFO  05:56:38 Ganesh Successfully got all flights details 
+INFO  05:57:03 Successfully booked for passenger Gopi
+INFO  05:57:03 All Booked tickets
+INFO  05:57:03 Ganesh Successfully got all bookings details 
+INFO  05:57:09 Flightslist getting Displayed
+INFO  05:57:09 Ganesh Successfully got all flights details 
+INFO  05:57:38 All Booked tickets
+INFO  05:57:38 Ganesh Successfully got all bookings details 
+INFO  05:57:44 User Log Out
+INFO  05:57:51 token not found
+INFO  05:58:01 token not found
+INFO  09:27:17 Application started. Press Ctrl+C to shut down.
+INFO  09:27:17 Application started. Press Ctrl+C to shut down.
+INFO  09:27:17 Hosting environment: Development
+INFO  09:27:17 Hosting environment: Development
+INFO  09:27:17 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  09:27:17 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  09:27:30 User Login Initiated
+INFO  09:27:40 User Login Initiated
+INFO  09:27:40 Ganesh successfully logged in
+INFO  09:27:40 Flightslist getting Displayed
+INFO  09:27:41 Ganesh Successfully got all flights details 
+ERROR 09:28:03 The view 'Flight with given id does not exist' was not found. Searched locations: /Views/Ticket/Flight with given id does not exist.cshtml, /Views/Shared/Flight with given id does not exist.cshtml
+ERROR 09:28:03 The view 'Flight with given id does not exist' was not found. Searched locations: /Views/Ticket/Flight with given id does not exist.cshtml, /Views/Shared/Flight with given id does not exist.cshtml
+ERROR 09:28:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Flight with given id does not exist' was not found. The following locations were searched:
+/Views/Ticket/Flight with given id does not exist.cshtml
+/Views/Shared/Flight with given id does not exist.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 09:28:04 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Flight with given id does not exist' was not found. The following locations were searched:
+/Views/Ticket/Flight with given id does not exist.cshtml
+/Views/Shared/Flight with given id does not exist.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:36:52 Application started. Press Ctrl+C to shut down.
+INFO  09:36:52 Application started. Press Ctrl+C to shut down.
+INFO  09:36:52 Hosting environment: Development
+INFO  09:36:52 Hosting environment: Development
+INFO  09:36:52 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  09:36:52 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  09:37:03 User Login Initiated
+INFO  09:37:04 Ganesh successfully logged in
+INFO  09:37:04 Flightslist getting Displayed
+INFO  09:37:05 Ganesh Successfully got all flights details 
+INFO  09:50:14 Application started. Press Ctrl+C to shut down.
+INFO  09:50:14 Application started. Press Ctrl+C to shut down.
+INFO  09:50:14 Hosting environment: Development
+INFO  09:50:14 Hosting environment: Development
+INFO  09:50:14 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  09:50:14 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  09:50:39 User Login Initiated
+INFO  09:50:46 User Login Initiated
+INFO  09:50:46 Deepak successfully logged in
+INFO  09:50:46 Deepak requested current availability
+INFO  09:50:47 Deepak Successfully got all flights details 
+INFO  09:51:25 User Log Out
+INFO  09:51:31 token not found
+INFO  09:51:38 token not found
+INFO  09:51:42 token not found
+INFO  10:06:32 Application started. Press Ctrl+C to shut down.
+INFO  10:06:32 Application started. Press Ctrl+C to shut down.
+INFO  10:06:32 Hosting environment: Development
+INFO  10:06:32 Hosting environment: Development
+INFO  10:06:32 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  10:06:32 Content root path: C:\Users\Ganesh\source\repos\Airline_Reservation_Without_DB\Airline_Client
+INFO  10:06:49 User Login Initiated
+INFO  10:06:50 Deepak successfully logged in
+INFO  10:06:50 Deepak requested current availability
+INFO  10:06:50 Deepak Successfully got all flights details 
+INFO  10:07:12 Flight with given id 7 does not exist 
+INFO  10:07:23 Successfully booked for passenger Azad
+INFO  10:07:23 All Booked tickets
+INFO  10:07:23 Deepak Successfully got all bookings details 
+INFO  10:07:26 All Booked tickets
+INFO  10:07:26 Deepak Successfully got all bookings details 
+INFO  10:07:29 Deepak requested current availability
+INFO  10:07:29 Deepak Successfully got all flights details 
